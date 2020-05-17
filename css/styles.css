@@ -1,0 +1,165 @@
+:root {
+  --color_blu: #2196f3;
+  --color_white: #ffffff;
+  --color_black: #212121;
+  --color_text: #757575;
+  --color_main: #e5e5e5;
+  --color_second: #f5f4fa;
+}
+body {
+  background-color: var(--color_main);
+  font-family: Roboto;
+  color: var(--color_text);
+  font-size: 14px;
+line-height: 1.7;
+
+
+
+letter-spacing: 0.03em;
+}
+ul{
+  list-style: none;
+}
+
+
+ /* header */
+.navi {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+  font-family: Roboto;
+  color: var(--color_black);
+  
+}
+.comamda {
+  background-color: #f5f4fa;
+}
+.adr {
+  
+  font-family: Raleway;
+  color: var(--color_blu);
+}
+
+.logo-link{
+text-decoration: none; 
+color: var(--color_black);
+font-family: Raleway; 
+font-weight: 700;
+font-size: 26px;
+line-height: 31px; 
+letter-spacing: 0.03em;
+
+}
+.logo {
+  background-color: var(--color_white);
+  color: var(--color_black);
+  }
+
+ .nav-links .links{ 
+  text-decoration: none;
+  color: var(--color_black);
+  
+   font-weight: 500;
+  font-size: 14px;
+  line-height: 16px; 
+  } 
+
+  
+
+  .nav-links .links:hover,
+  .nav-links .links:focus {
+  color: var(--color_blu);
+  }
+  
+  .nav-links .current{
+    color: var(--color_blu);
+  }
+
+  .nav-links .emeil{
+    color: var(--color_text);
+  }
+  .nav-links .phon {
+    color: var(--color_text);
+  }
+
+  .list{
+    list-style: none;
+  }
+
+  .nav-links .current:focus{
+    background-color: var(--color_blu);
+  }
+  /* text */
+h1,h2,h3,h4,h5,h6 {
+
+  color: var(--color_black);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.garant{
+  font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+}
+
+
+.button {
+text-decoration: none;
+background-color: var(--color_blu);
+color: var(--color_white);
+width: 200px;
+height: 50px;
+}
+
+footer {
+  text-decoration: none;
+  
+  background-color: #2f303a;
+  font-family: Roboto;
+  color: var(--color_white);
+ }
+ .nav-links .futer {
+   color: var(--color_white);}
+
+   .logo-lin{
+    text-decoration: none; 
+    color: var(--color_white);
+    font-family: Raleway; 
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    
+    }
+.down{
+  color: var(--color_white);
+}
+
+.lists{
+text-decoration: none;
+color: var(--color_white);
+
+}
+/* portfolio */
+.port{
+  font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+}
+.spisoc{
+  font-size: 16px;
+line-height: 1.88;
+}
+
+.name{
+  font-size: 16px;
+line-height: 1.88;
+}
+ 
+ .opus{
+  font-size: 18px;
+  line-height: 1.88px;
+ } 
+
+ 
