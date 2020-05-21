@@ -10,7 +10,7 @@ li {
   list-style: none;
 }
 
-}
+
 .list {
   margin: 0;
   padding: 0;
@@ -24,7 +24,7 @@ li {
   --color_second: #f5f4fa;
 }
 body {
-  background-color: var(--color_main);
+  background-color: var(--color_white);
   font-family: Roboto;
   color: var(--color_text);
   font-size: 14px;
@@ -97,7 +97,7 @@ body {
 .list {
   display: block;
   display: flex;
-  flex: end;
+   flex: end; 
   margin-left: auto;
 }
 .nav-links .item:not(:last-child) {
@@ -114,7 +114,7 @@ body {
   }
   /* 1600 */
 .container {
-  display: block;
+  
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -122,11 +122,15 @@ body {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding:0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
   margin-top:0;
+  margin-bottom: 0;
   padding-top: 94px;
   padding-bottom: 94px
-  background-color: #E5E5E5;
+  /* background-color: #E5E5E5; */
+  border: 1px solid #ECECEC;
 }
 
   .abo{
@@ -134,8 +138,15 @@ body {
     width: 1600px;
     height: 600px; 
     margin-top: 0;
+    text-align: center;
   }
-
+.abo .knop{
+ 
+  display: flex;
+  align-items: center;
+  
+  
+}
 .tit{
   display: block;
   
@@ -148,6 +159,7 @@ text-align: center;
 padding-top: 200px;
 margin-top: 0;
 margin-bottom: 0;
+margin-bottom: 54px;
 }
 .buti{
    font-size: 16px;
@@ -156,8 +168,8 @@ margin-bottom: 0;
   background: #2196f3;
   padding-left: 32px;
   padding-right: 32px;
-  margin-bottom: 0;
-  margin-top: 56px; 
+  margin-bottom: 0; 
+  margin-top: 0;
   margin-right: auto; 
   margin-left: auto;
   width: 200px;
@@ -214,4 +226,7 @@ margin-top: 0;
 margin-bottom: 0;
 padding-top: 94px;
 padding-bottom: 50px;
+  }
+  .line-blok {
+    display: flex;
   }
