@@ -189,6 +189,7 @@ body {
 .line-blok {
   display: inline-block;
   display: inline-flex;
+
   flex-direction: row;
   text-align: left;
   padding-left: 0;
@@ -199,6 +200,7 @@ body {
 .doit-now {
   margin-right: 30px;
   margin-bottom: 0;
+  flex-wrap: wrap;
 }
 
 .doit-now:last-child {
@@ -287,7 +289,6 @@ body {
   border: 4px solid tomato;
 }
 .containe {
-  display: block;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -300,8 +301,10 @@ body {
   padding-right: 0;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 94px;
+  padding-top: 50px;
   padding-bottom: 94px;
+  /* background-color: #E5E5E5; */
+}
 .port {
   color: var(--color_black);
   font-weight: 700;
@@ -325,4 +328,27 @@ body {
   margin-bottom: 4px;
   padding-left: 24px;
   width: 370px;
+}
+.line-blo {
+  display: flex;
+  flex-wrap: wrap;
+
+  text-align: left;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.knopka {
+  display: block;
+  text-align: center;
+
+  padding-top: 94px;
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
