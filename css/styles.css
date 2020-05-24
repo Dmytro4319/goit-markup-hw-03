@@ -299,6 +299,11 @@ body {
 .nav-links .social:last-child {
   margin-right: 0;
 }
+.cent {
+  display: block;
+  display: flex;
+  padding-left: 40px;
+}
 /* .col {
   background-color: tomato;
 } */
@@ -321,6 +326,10 @@ body {
   margin-right: 0;
 }
 .foot {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: centr;
   background-color: var(--color_black);
   color: var(--color_white);
 }
