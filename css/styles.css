@@ -97,6 +97,7 @@ body {
 .nav-lin {
   display: flex;
   justify-content: space-between;
+  /* padding-left: 0; */
 }
 .nav-links {
   display: block;
@@ -138,23 +139,27 @@ body {
   margin-bottom: 0;
   padding-top: 94px;
   padding-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+  border-top: 1px solid #ececec;
   /* background-color: #E5E5E5; */
 }
-.box {
-  outline: 2px solid tomato;
+/* .box {
+  outline: 2px solid ; */
+/* } */
+.bk {
+  background: #f5f4fa;
 }
 .abo {
-  background-image: url(../img/Head.png);
+  /* background-image: url(../img/Head.png); */
+  background-color: rgba(47, 48, 58, 0.8);
   width: 100%;
-  min-width: 1600px;
+
   height: 600px;
   margin-top: 0;
   text-align: center;
 }
 .abo .knop {
-  display: flex;
   align-items: center;
 }
 .tit {
@@ -169,7 +174,7 @@ body {
   padding-top: 200px;
   margin-top: 0;
   margin-bottom: 0;
-  margin-bottom: 54px;
+  margin-bottom: 46px;
 }
 .txt {
   font-size: 14px;
@@ -195,8 +200,8 @@ body {
   margin-top: 0;
   margin-right: auto;
   margin-left: auto;
-  width: 200px;
-  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 /* Мы гарантируем */
 
@@ -212,8 +217,8 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   color: var(--color_black);
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .transp {
   display: flex;
@@ -247,8 +252,8 @@ body {
   margin-bottom: 0;
 }
 .line-blok {
-  display: inline-block;
-  display: inline-flex;
+  display: block;
+  display: flex;
 
   flex-direction: row;
   text-align: left;
@@ -271,19 +276,20 @@ body {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  /* padding-top: 25px;
+  padding-bottom: 25px; */
 }
 
 /* Чем мы занимаемся */
 .garant {
+  display: block;
   text-align: center;
   color: var(--color_black);
   font-size: 36px;
   line-height: 1.16;
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .titles {
@@ -340,16 +346,28 @@ footer {
 
   color: var(--color_white);
 }
-.one {
-  flex-grow: 1;
+.down {
+  padding-left: 40px;
 }
+.one {
+  margin-right: 46px;
+  justify-content: start;
+}
+
 .two {
-  flex-grow: 2;
 }
 .stud {
   color: var(--color_white);
 }
 .lists {
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
   color: rgba(255, 255, 255, 0.6);
 }
 .stu {
@@ -365,7 +383,7 @@ footer {
   height: 422px;
   /* box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12); */
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
 }
 .containe {
   display: flex;
@@ -439,6 +457,9 @@ footer {
   padding-right: 22px;
   margin-right: 8px;
   color: #212121;
+}
+.knopka .knopk:last-child {
+  margin-right: 0;
 }
 .line-blo:last-child .doit-now {
   margin-right: 0;
